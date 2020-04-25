@@ -1,0 +1,129 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#navbar {
+
+    margin-top: 30px;
+
+    
+}
+
+#search-form {
+    border: 1px solid black;
+
+    width: 80%;
+    height: 50px;
+}
+
+#nav-buttons {
+    border: 1px solid black;
+
+    width: 40%;
+    height: 30px;
+}
+
+#user-buttons {
+    border: 1px solid black;
+
+    position: absolute;
+
+    width: 20%;
+    height: 50px;
+    top: 30px;
+    right: 0;
+}
+
+#settings-buttons {
+    border: 1px solid black;
+
+    position: absolute;
+
+    width: 60%;
+    height: 30px;
+    top: 80px;
+    right: 0;
+}
+
+#main {
+    
+}
+
+#results-number {
+    border: 1px solid black;
+
+    height: 20px;
+}
+
+#featured-snippet {
+    border: 1px solid black;
+    
+    height: 200px;
+    width: 70%;
+}
+
+#results-top {
+    border: 1px solid black;
+
+    height: 200px;
+    width: 70%;
+}
+
+#videos {
+    border: 1px solid black;
+
+    height: 200px;
+    width: 70%;
+}
+
+#people-ask {
+    border: 1px solid black;
+
+    height: 150px;
+    width: 70%;
+}
+
+#results-rest {
+    border: 1px solid black;
+
+    height: 500px;
+    width: 70%;
+}
+
+#related-searches {
+    border: 1px solid black;
+
+    height: 150px;
+    width: 70%;
+}
+
+#paging {
+    border: 1px solid black;
+
+    height: 50px;
+    width: 70%;
+}
+
+#footer {
+    
+}
+
+#location {
+    border: 1px solid black;
+
+    height: 30px;
+}
+
+#links {
+    border: 1px solid black;
+
+    height: 30px;
+}
