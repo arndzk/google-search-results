@@ -68,10 +68,29 @@ html, body {
 }
 
 #featured-snippet {
-    border: 1px solid black;
-    
     height: 200px;
-    width: 70%;
+    width: 652px;
+
+    font-family: arial, sans-serif;
+
+    overflow: hidden;
+
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+}
+
+.featured-text {
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    color: #222;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    border-radius: 8px;
 }
 
 #results-top {
