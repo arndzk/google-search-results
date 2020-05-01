@@ -10,6 +10,10 @@ html, body {
     align-items: stretch;
 }
 
+strong {
+    font-weight: bold;
+}
+
 #navbar {
 
     margin-top: 30px;
@@ -67,8 +71,12 @@ html, body {
     margin-left: 180px;
 }
 
+#featured {
+    margin-top: 6px;
+    margin-bottom: 27px;
+}
+
 #featured-snippet {
-    height: 200px;
     width: 652px;
 
     font-family: arial, sans-serif;
@@ -81,7 +89,7 @@ html, body {
 }
 
 .featured-text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
     text-align: left;
     font-weight: normal;
@@ -91,6 +99,82 @@ html, body {
     padding-right: 16px;
     padding-bottom: 20px;
     border-radius: 8px;
+}
+
+#featured-b {
+    padding-left: 16px;
+}
+
+#featured-t {
+    padding-left: 16px;
+    padding-bottom: 20px;
+}
+
+#featured-about {
+    padding: 4px 16px 0 8px;
+    line-height: 16px;
+    width: 652px;
+}
+
+#about-contents {
+    float: right;
+    margin-right: -8px;
+}
+
+.f-a-svg-q {
+    height: 16px;
+    width: 16px;
+
+    color: #9e9e9e;
+    cursor: pointer;
+    margin-right: 8px;
+
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+    font-size: 12px;
+}
+
+.f-a-svg-e {
+    height: 14px;
+    line-height: 14px;
+    width: 16px;
+
+    color: #9e9e9e;
+    cursor: pointer;
+    margin-right: 8px;
+
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+    font-size: 12px;
+}
+
+.featured-link {
+    font-size: 12px;
+    line-height: 1.34;
+    color: #70757a;
+    font-family: arial, sans-serif;
+    padding-right: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: -4px;
+}
+
+.featured-link:hover {
+    text-decoration: underline;
+}
+
+#svg-question {
+    display: block;
+    height: 100%;
+    width: 100%;  
+}
+
+#svg-exclamation {
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 #results-top {
