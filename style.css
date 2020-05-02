@@ -62,14 +62,17 @@ em {
     right: 0;
 }
 
-#main {
-    
+#main {}
+
+#result-stats {
+    height: 43px;
 }
 
-#results-number {
-    border: 1px solid black;
-
-    height: 20px;
+#result-stats-text {
+    margin-left: 180px;
+    font-size: 14px;
+    line-height: 43px;
+    color: #70757a;
 }
 
 #center-content {
@@ -179,7 +182,7 @@ em {
 }
 
 #results-top {
-    height: 136px;
+    height: 120px;
     width: 600px;
     margin-bottom: 27px;
 }
