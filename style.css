@@ -78,6 +78,7 @@ em {
 
 #featured {
     margin-top: 6px;
+    height: 210px;
     margin-bottom: 27px;
 }
 
@@ -179,12 +180,15 @@ em {
 
 #results-top {
     height: 136px;
-    width: 70%;
+    width: 600px;
     margin-bottom: 27px;
 }
 
 .result {
-    height: 136px;
+    height: 97px;
+    width: 600px;
+    margin-bottom: 27px;
+    position: relative;
 }
 
 .breadcrumb {
@@ -418,8 +422,7 @@ em {
 }
 
 #results-rest {
-    height: 952px;
-    width: 70%;
+    width: 600px;
 }
 
 #related-searches {
