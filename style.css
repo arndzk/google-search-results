@@ -22,8 +22,7 @@ em {
 #navbar {
 
     margin-top: 20px;
-
-    
+    border-bottom: 1px solid #ebebeb
 }
 
 #search-form {
@@ -75,10 +74,40 @@ em {
 }
 
 #nav-buttons {
-    border: 1px solid black;
+    margin-left: 169px;
+}
 
-    width: 40%;
-    height: 30px;
+#nav-buttons-container {
+    color: #666;
+    font-size: 13px;
+    outline: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 16px 12px 12px 10px;
+    height: 100%;
+    line-height: 16px;
+    margin: 11px 1px 0;
+}
+
+#nav-button-selected {
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+}
+
+.nav-button-icon {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    fill: currentColor;
+    margin-right: 5px;
+    vertical-align: text-bottom;
 }
 
 #user-buttons {
@@ -97,7 +126,7 @@ em {
 
     position: absolute;
 
-    width: 60%;
+    width: 30%;
     height: 30px;
     top: 70px;
     right: 0;
