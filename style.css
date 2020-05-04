@@ -28,7 +28,7 @@ em {
 #search-form {
     display: flex;
     min-width: 1173px;
-    height: 50px;
+    height: 45px;
 }
 
 #logo-div {
@@ -50,7 +50,7 @@ em {
 
 #searchbar-div {
     position: relative;
-    width: 692px;
+    width: 720px;
     padding-left: 27px;
 }
 
@@ -73,13 +73,18 @@ em {
     border-color: rgba(223,225,229,0);
 }
 
+#navbar-controls {
+    display: flex;
+    color: #666;
+    font-size: 13px;
+}
+
 #nav-buttons {
     margin-left: 169px;
+    width: 420px;
 }
 
 #nav-buttons-container {
-    color: #666;
-    font-size: 13px;
     outline: none;
 }
 
@@ -122,14 +127,15 @@ em {
 }
 
 #settings-buttons {
-    border: 1px solid black;
+    
+}
 
-    position: absolute;
+#settings-more {
+    margin-right: 60px;
+}
 
-    width: 30%;
-    height: 30px;
-    top: 70px;
-    right: 0;
+#setting-button-icon {
+    margin-right: 0;
 }
 
 #main {}
