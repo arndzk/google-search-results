@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 * {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -556,10 +557,73 @@ em {
 }
 
 #paging {
-    border: 1px solid black;
 
-    height: 50px;
-    width: 70%;
+}
+
+.not-oes {
+    padding: 0;
+    text-align: center;
+}
+
+#g-google {
+    width: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #4285f4;
+    font-size: 40px;
+}
+
+.paging-link {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.paging-link:hover {
+    color: #4285f4;
+    text-decoration: underline;
+}
+
+.oes {
+    padding: 0;
+    text-align: center;
+    color: rgba(0,0,0,.87);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.o-google {
+    width: 20px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #f4c20d;
+    font-size: 30px;
+}
+
+.o-google:hover {
+    text-decoration: none;
+}
+
+#current-o {
+    font-family: 'Roboto', sans-serif;
+    color: #db3236;
+    font-size: 30px;
+}
+
+#next-link {
+    display: block;
+}
+
+#gle-google {
+    width: 28px;
+}
+
+#next {
+    margin-left: 53px;
+    font-size: 14px;
+}
+
+#paging-table {
+    text-align: left;
+    margin: 30px auto 30px;
 }
 
 #footer {
@@ -626,4 +690,8 @@ em {
 
 .footer-button {
     margin-right: 27px;
+}
+
+.footer-button:hover {
+    color: #333;
 }
