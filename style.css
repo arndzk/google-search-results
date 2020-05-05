@@ -117,18 +117,45 @@ em {
 }
 
 #user-buttons {
-    border: 1px solid black;
+    flex-grow: 4;
+    display: flex;
+    justify-content: flex-end;
+}
 
-    position: absolute;
+#google-apps {
+    display: inline;
+    margin-top: 15px;
+    margin-right: 20px;
+}
 
-    width: 20%;
-    top: 0;
-    height: 50px;
-    right: 0;
+#google-apps-img {
+    display: inline-block;
+    opacity: .55;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+#google-one {
+    padding-top: 1px;
+    display: flex;
+    height: 100%;
+    margin-right: 15px;
+}
+
+#user-icon {
+    display: block;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: -1px;
+    margin-top: -39px;
+    margin-left: 4px;
 }
 
 #settings-buttons {
-    
+    display: flex;
 }
 
 #settings-more {
@@ -137,6 +164,14 @@ em {
 
 #setting-button-icon {
     margin-right: 0;
+}
+
+#safesearch {
+    display: inline-block;
+    padding: 16px 12px 12px 10px;
+    height: 100%;
+    line-height: 16px;
+    margin: 11px 1px 0;
 }
 
 #main {}
@@ -557,7 +592,7 @@ em {
 }
 
 #paging {
-
+    width: 750px;
 }
 
 .not-oes {
@@ -591,6 +626,10 @@ em {
     font-size: 14px;
 }
 
+.not-oes {
+    font-size: 0;
+}
+
 .o-google {
     width: 20px;
     display: block;
@@ -619,6 +658,7 @@ em {
     color: #4285f4;
     font-size: 30px;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 #l-google {
