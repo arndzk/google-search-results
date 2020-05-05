@@ -570,6 +570,7 @@ em {
     font-family: 'Roboto', sans-serif;
     color: #4285f4;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .paging-link {
@@ -596,6 +597,7 @@ em {
     font-family: 'Roboto', sans-serif;
     color: #f4c20d;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .o-google:hover {
@@ -606,14 +608,29 @@ em {
     font-family: 'Roboto', sans-serif;
     color: #db3236;
     font-size: 30px;
+    font-weight: bold;
 }
 
 #next-link {
     display: block;
 }
 
-#gle-google {
-    width: 28px;
+#minor-g-google {
+    color: #4285f4;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#l-google {
+    color: #0F9D58;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#e-google {
+    color: #db3236;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #next {
