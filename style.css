@@ -83,6 +83,7 @@ em {
 #nav-buttons {
     margin-left: 169px;
     width: 420px;
+    flex-shrink: 0;
 }
 
 #nav-buttons-container {
@@ -155,6 +156,8 @@ em {
 }
 
 #settings-buttons {
+    flex-shrink: 0;
+    flex-grow: 4;
     display: flex;
 }
 
@@ -166,12 +169,20 @@ em {
     margin-right: 0;
 }
 
+#separator-div {
+    flex-grow: 4;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
 #safesearch {
     display: inline-block;
     padding: 16px 12px 12px 10px;
     height: 100%;
     line-height: 16px;
     margin: 11px 1px 0;
+    margin-right: 20px;
+    float: right;
 }
 
 #main {}
